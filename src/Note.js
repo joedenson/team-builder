@@ -8,7 +8,9 @@ const Note = props => {
                     <h2>{note.name}</h2>
                     <p>{note.email}</p>
                     <p>{note.role}</p>
+
                 </div>
+
             ))}
         </div>
     );

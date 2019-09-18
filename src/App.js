@@ -5,14 +5,7 @@ import './App.css';
 
 function App() {
 
-  const [notes, setNotes] = useState([
-    {
-      id: '',
-      name: '',
-      email: '',
-      role: ''
-    }
-  ]);
+  const [notes, setNotes] = useState([]);
 
   const addNewMember = note => {
     const newNote = {
